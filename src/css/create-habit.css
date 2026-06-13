@@ -1,0 +1,117 @@
+body {
+    background-color: #fdf8f0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 480px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #72a372;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #3d4750;
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #4a4a4a;
+    font-size: 15px;
+}
+
+.form-group input, 
+.form-group select {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e0e0e0;
+    font-size: 16px;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #72a372;
+}
+
+.btn-save {
+    background-color: #72a372;
+    color: #ffffff;
+    border-style: none;
+    padding: 16px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 360px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #8e8e8e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar a span {
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+.navbar a.active {
+    color: #72a372;
+}
